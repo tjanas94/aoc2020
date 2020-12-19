@@ -27,7 +27,7 @@ def activeNeighbors(px, py, pz, pw, cubes):
 
     return result
 
-def part1():
+def part2():
     lastCubes = cubes
 
     for i in range(6):
@@ -93,4 +93,4 @@ def part1():
 
     return result
 
-print(part1())
+print(part2())
